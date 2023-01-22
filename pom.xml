@@ -32,6 +32,14 @@
 		<sonar.host.url>http://43.207.61.178:9000/</sonar.host.url>
 		<sonar.login>6029acb39d8a3a137fdfb288bf6f9ae0d3913b5f</sonar.login>
 	</properties>
+
+	<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.cloudbinary.io-snapshots</name>
+        <url>http://35.74.252.101:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+    </distributionManagement>
 	
 	<scm>
 		<connection>scm:git:git@github.com:81062/javacodescan.git</connection>
@@ -39,14 +47,7 @@
 		<url>git@github.com:81062/javacodescan.git</url>
 		<tag>HEAD</tag>
 	</scm>
-	   <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog.cloudbinary.io-snapshots</name>
-        <url>http://35.74.252.101:8081/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-       </distributionManagement>
-
+	 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
