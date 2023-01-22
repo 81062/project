@@ -27,10 +27,10 @@
 		<jacoco.version>0.7.9</jacoco.version>
 		
 		<!-- SonarQube Integration -->
-		<sonar.organization>bharat1016</sonar.organization>
-		<sonar.projectKey>ashok1</sonar.projectKey>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>48640802662038e439f1624a998d6f99fc9c5d21</sonar.login>
+		<sonar.organization>watsapp</sonar.organization>
+		<sonar.projectKey>watsapp</sonar.projectKey>
+		<sonar.host.url>http://43.207.61.178:9000/</sonar.host.url>
+		<sonar.login>6029acb39d8a3a137fdfb288bf6f9ae0d3913b5f</sonar.login>
 	</properties>
 	
 	<scm>
