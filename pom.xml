@@ -39,6 +39,13 @@
 		<url>git@github.com:81062/javacodescan.git</url>
 		<tag>HEAD</tag>
 	</scm>
+	   <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.cloudbinary.io-snapshots</name>
+        <url>http://35.74.252.101:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+       </distributionManagement>
 
 	<dependencies>
 		<dependency>
